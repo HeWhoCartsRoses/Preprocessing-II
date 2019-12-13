@@ -1,1 +1,13 @@
 // Mixins in here
+.but(@color;@txtS;@txtC){
+    border: 1px solid black;
+    text-align: center;
+    background-color:@color;
+    font-size:@txtS;
+    color:@txtC;
+    padding:2%;
+    border-radius: 5%;
+}
+.btn{
+    .but(@eastern-blue; 200%;@white);
+}
